@@ -24,9 +24,9 @@
 
   <!-- 4. 动态活跃折线图 -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=xinghuoseo&theme=react-dark&hide_border=true&bg_color=1f2937&color=34d399&line=34d399&point=6ee7b7&area=true&area_color=065f46" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=xinghuoseo&theme=github-light&hide_border=true&color=059669&line=10b981&point=34d399&area=true&area_color=d1fae5" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=xinghuoseo&theme=react-dark&hide_border=true&bg_color=1f2937&color=34d399&line=34d399&point=6ee7b7&area=true&area_color=065f46" alt="Activity Graph" width="95%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-activity-graph.vercel.app/graph?username=xinghuoseo&theme=react-dark&hide_border=true&bg_color=1f2937&color=34d399&line=34d399&point=6ee7b7&area=true&area_color=065f46" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-activity-graph.vercel.app/graph?username=xinghuoseo&theme=github-light&hide_border=true&color=059669&line=10b981&point=34d399&area=true&area_color=d1fae5" />
+    <img src="https://readme-activity-graph.vercel.app/graph?username=xinghuoseo&theme=react-dark&hide_border=true&bg_color=1f2937&color=34d399&line=34d399&point=6ee7b7&area=true&area_color=065f46" alt="Activity Graph" width="95%" />
   </picture>
 
   <!-- 5. 贪吃蛇贡献图 -->
