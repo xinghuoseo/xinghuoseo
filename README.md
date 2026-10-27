@@ -60,9 +60,9 @@
 
 <!-- ================= 技术栈 ================= -->
 <h3 align="center">🛠️ Tech Stack & Skills</h3>
-<table align="center" style="border: none; background: transparent;">
+<table align="center" width="95%">
   <tr>
-    <td align="right" width="190"><b>Languages</b></td>
+    <td align="right" width="18%"><b>Languages</b></td>
     <td>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
@@ -71,7 +71,7 @@
     </td>
   </tr>
   <tr>
-    <td align="right" width="190"><b>Tools&nbsp;&amp;&nbsp;Platforms</b></td>
+    <td align="right" width="18%"><b>Tools&nbsp;&amp;&nbsp;Platforms</b></td>
     <td>
       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
       <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
