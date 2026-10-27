@@ -23,14 +23,13 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git clone --single-branch --branch output "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" out 2>/dev/null || (
-            git init out && cd out && git checkout -b output
-          )
-          cp -v dist/*.svg out/
-          cd out
+          mkdir -p out && cd out
+          git init -b output
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          cp ../dist/*.svg .
           git add -A
           git commit -m "chore: update snake" || exit 0
-          git push -u origin output
+          git push -fu origin output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
